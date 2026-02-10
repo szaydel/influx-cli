@@ -1,10 +1,10 @@
 module github.com/influxdata/influx-cli/v2
 
-go 1.22
+go 1.25
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.4
-	github.com/BurntSushi/toml v1.2.1
+	github.com/BurntSushi/toml v1.4.1-0.20240526193622-a339e1f7089c
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
 	github.com/charmbracelet/bubbletea v0.21.0
 	github.com/charmbracelet/lipgloss v0.5.0
@@ -25,10 +25,10 @@ require (
 	go.etcd.io/bbolt v1.3.6
 	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467
 	golang.org/x/text v0.3.8
-	golang.org/x/tools v0.8.0
+	golang.org/x/tools v0.42.0
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v3 v3.0.1
-	honnef.co/go/tools v0.4.3
+	honnef.co/go/tools v0.6.1
 )
 
 require (
@@ -58,10 +58,11 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/exp/typeparams v0.0.0-20230321023759-10a507213a29 // indirect
-	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
+	golang.org/x/exp/typeparams v0.0.0-20231108232855-2478ac86f678 // indirect
+	golang.org/x/mod v0.33.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260209163413-e7419c687ee4 // indirect
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba // indirect
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
+	golang.org/x/tools/go/expect v0.1.1-deprecated // indirect
 )
